@@ -1,4 +1,4 @@
-# ADSP - from santoni (Redmi 4X)
+# ADSP - from vince (Redmi5 Plus)
 bin/adsprpcd
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsprpc.so
@@ -9,7 +9,7 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
 
-# ADSP modules - from santoni (Redmi 4X)
+# ADSP modules - from vince (Redmi5 Plus)
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
@@ -23,7 +23,7 @@ vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libscveTextReco_skel.so
 
-# CNE - from santoni (Redmi 4X)
+# CNE - from vince (Redmi5 Plus)
 -priv-app/CNEService/CNEService.apk
 bin/cnd
 etc/cne/SwimConfig.xml
@@ -62,14 +62,13 @@ vendor/lib64/libvendorconn.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 
-# Charger - from santoni (Redmi 4X)
+# Charger - from vince (Redmi5 Plus)
 bin/hvdcp_opti
 
-# Consumer IR - from santoni (Redmi 4X)
-lib/hw/consumerir.default.so
+# Consumer IR - from vince (Redmi5 Plus)
 lib64/hw/consumerir.default.so
 
-# DPM - from santoni (Redmi 4X)
+# DPM - from vince (Redmi5 Plus)
 bin/dpmd
 etc/dpm/dpm.conf
 etc/dpm/nsrm/NsrmConfiguration.xml
@@ -89,7 +88,7 @@ vendor/lib64/libdpmframework.so
 vendor/lib64/libdpmnsrm.so
 vendor/lib64/libdpmtcm.so
 
-# DRM - from santoni (Redmi 4X)
+# DRM - from vince (Redmi5 Plus)
 bin/qseecomd
 vendor/bin/qseeproxydaemon
 vendor/lib/libQSEEComAPI.so
@@ -111,11 +110,11 @@ vendor/lib64/libsecureuisvc_jni.so
 vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 
-# Gatekeeper - from santoni (Redmi 4X)
+# Gatekeeper - from vince (Redmi5 Plus)
 vendor/lib/hw/gatekeeper.msm8937.so
 vendor/lib64/hw/gatekeeper.msm8937.so
 
-# GPS - from garlic (YUREKA BLACK)
+# GPS - from vince (Redmi5 Plus)
 -framework/com.qti.location.sdk.jar
 -framework/com.qualcomm.location.vzw_library.jar
 -framework/izat.xt.srv.jar
@@ -160,20 +159,13 @@ vendor/lib64/libxt_native.so
 vendor/lib64/libxtadapter.so
 vendor/lib64/libxtwifi_ulp_adaptor.so
 
-# Graphics - from santoni (Redmi 4X)
+# Graphics - from vince (Redmi5 Plus)
 -vendor/lib/libsdm-disp-apis.so
-vendor/lib/egl/eglsubAndroid.so
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
-vendor/lib/egl/libESXEGL_adreno.so
-vendor/lib/egl/libESXGLESv1_CM_adreno.so
-vendor/lib/egl/libESXGLESv2_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libQTapGLES.so
-vendor/lib/egl/libRBEGL_adreno.so
-vendor/lib/egl/libRBGLESv1_CM_adreno.so
-vendor/lib/egl/libRBGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/hw/vulkan.msm8937.so
@@ -183,10 +175,9 @@ vendor/lib/libOpenCL.so
 vendor/lib/libRSDriver_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libbccQTI.so
-vendor/lib/libc2d30-a3xx.so
-vendor/lib/libc2d30-a4xx.so
 vendor/lib/libc2d30-a5xx.so
 vendor/lib/libc2d30_bltlib.so
+vendor/lib/libEGL_adreno.so
 vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
@@ -197,38 +188,28 @@ vendor/lib/libmm-qdcm.so
 vendor/lib/libmmQSM.so
 vendor/lib/librs_adreno.so
 vendor/lib/librs_adreno_sha1.so
-vendor/lib/libsc-a2xx.so
-vendor/lib/libsc-a3xx.so
 vendor/lib/libscalar.so
 vendor/lib/libscale.so
 vendor/lib/libsdm-color.so
 vendor/lib/libsdm-diag.so
 vendor/lib/libsdmextension.so
 vendor/lib/libsd_sdk_display.so
-vendor/lib64/egl/eglsubAndroid.so
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
-vendor/lib64/egl/libESXEGL_adreno.so
-vendor/lib64/egl/libESXGLESv1_CM_adreno.so
-vendor/lib64/egl/libESXGLESv2_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/egl/libRBEGL_adreno.so
-vendor/lib64/egl/libRBGLESv1_CM_adreno.so
-vendor/lib64/egl/libRBGLESv2_adreno.so
 vendor/lib64/hw/vulkan.msm8937.so
 -vendor/lib64/libsdm-disp-apis.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
+vendor/lib64/libEGL_adreno.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libRSDriver_adreno.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libbccQTI.so
-vendor/lib64/libc2d30-a3xx.so
-vendor/lib64/libc2d30-a4xx.so
 vendor/lib64/libc2d30-a5xx.so
 vendor/lib64/libc2d30_bltlib.so
 vendor/lib64/libgsl.so
@@ -241,8 +222,6 @@ vendor/lib64/libmm-qdcm.so
 vendor/lib64/libmmQSM.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
-vendor/lib64/libsc-a2xx.so
-vendor/lib64/libsc-a3xx.so
 vendor/lib64/libscalar.so
 vendor/lib64/libscale.so
 vendor/lib64/libsd_sdk_display.so
@@ -251,7 +230,12 @@ vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
 
-# Graphics firmware - from santoni (Redmi 4X)
+# Graphics firmware - from vince
+etc/firmware/a506_zap.b00
+etc/firmware/a506_zap.b01
+etc/firmware/a506_zap.b02
+etc/firmware/a506_zap.elf
+etc/firmware/a506_zap.mdt
 etc/firmware/a530_gpmu.fw2
 etc/firmware/a530_pfp.fw
 etc/firmware/a530_pm4.fw
@@ -262,16 +246,16 @@ etc/firmware/a530v3_gpmu.fw2
 etc/firmware/a530v3_seq.fw2
 etc/firmware/a540_gpmu.fw2
 
-# Keystore - from santoni (Redmi 4X)
+# Keystore - from vince (Redmi5 Plus)
 vendor/lib/hw/keystore.msm8937.so
 vendor/lib64/hw/keystore.msm8937.so
 
-# Listen - from santoni (Redmi 4X)
+# Listen - from vince
 vendor/lib/hw/sound_trigger.primary.msm8937.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libsmwrapper.so
 
-# Media - from santoni (Redmi 4X)
+# Media - from vince (Redmi5 Plus)
 lib/libOmxVpp.so
 lib/libstagefright_soft_flacdec.so
 lib/libvpplibrary.so
@@ -302,18 +286,18 @@ vendor/lib64/libOmxEvrcDec.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libmmosal.so
 
-# Modem - from santoni (Redmi 4X)
+# Modem - from vince (Redmi5 Plus)
 vendor/lib/libwms.so
 vendor/lib64/libwms.so
 
-# Network - from santoni (Redmi 4X)
+# Network - from vince (Redmi5 Plus)
 -priv-app/QtiTetherService/QtiTetherService.apk
 vendor/lib/libconnctrl.so
 vendor/lib/libQtiTether.so
 vendor/lib64/libconnctrl.so
 vendor/lib64/libQtiTether.so
 
-# Perf - from santoni (Redmi 4X)
+# Perf - from vince (Redmi5 Plus)
 bin/iop
 bin/msm_irqbalance
 vendor/bin/perfd
@@ -322,20 +306,19 @@ vendor/lib/libqti-perfd-client.so
 vendor/lib64/libqti-iop-client.so
 vendor/lib64/libqti-perfd-client.so
 
-# Peripheral manager - from santoni (Redmi 4X)
+# Peripheral manager - from vince (Redmi5 Plus)
 bin/pm-proxy
 bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
-# Postprocessing - from santoni (Redmi 4X)
+# Postprocessing - from vince (Redmi5 Plus)
 framework/com.qti.snapdragon.sdk.display.jar
 vendor/bin/mm-pp-dpps
 vendor/lib/libdisp-aba.so
 vendor/lib64/libdisp-aba.so
 
-# QMI - from garlic (YUREKA BLACK)
-bin/ATFWD-daemon
+# QMI - from vince (Redmi5 Plus)
 bin/irsc_util
 etc/permissions/qti_permissions.xml
 vendor/lib64/lib_rsu.so
@@ -378,17 +361,14 @@ vendor/lib/libqmiservices.so
 vendor/lib/libquipc_os_api.so
 vendor/lib/libsmemlog.so
 
-# Radio - from garlic (YUREKA BLACK)
--app/datastatusnotification/datastatusnotification.apk
--app/fastdormancy/fastdormancy.apk
+# Radio - from vince (Redmi5 Plus)
 -app/QtiTelephonyService/QtiTelephonyService.apk
+-app/datastatusnotification/datastatusnotification.apk
+-app/embms/embms.apk
+-app/fastdormancy/fastdormancy.apk
 -app/shutdownlistener/shutdownlistener.apk
--framework/embmslibrary.jar
--framework/qcrilhook.jar
--framework/qti-telephony-common.jar|37d692fb171d0ee3269676a9e9998d2e3bfd9488
--framework/QtiTelephonyServicelibrary.jar
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 bin/netmgrd
+bin/port-bridge
 bin/radish
 bin/rmt_storage
 bin/tftp_server
@@ -397,9 +377,15 @@ etc/data/netmgr_config.xml
 etc/permissions/embms.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
+framework/QtiTelephonyServicelibrary.jar
+framework/embmslibrary.jar
+-framework/qcrilhook.jar
+framework/qti-telephony-common.jar
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/qti
+vendor/lib/liblqe.so
+vendor/lib/libmdmdetect.so
 vendor/lib64/libconfigdb.so
-vendor/lib64/libdatactrl.so
 vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
 vendor/lib64/libnetmgr.so
@@ -410,22 +396,21 @@ vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/libsettings.so
 vendor/lib64/libsystem_health_mon.so
-vendor/lib/libmdmdetect.so
 vendor/qcril.db
 
-# Radio - IMS - from garlic (YUREKA BLACK)
--framework/imscmlibrary.jar
--priv-app/ims/ims.apk|66fa3ab695d7be55a334cbee6e9c94d60089ac2a
--vendor/app/imssettings/imssettings.apk
--vendor/framework/qti-vzw-ims-internal.jar
+# Radio - IMS - from vince (Redmi5 Plus)
 bin/ims_rtp_daemon
 bin/imscmservice
 bin/imsdatadaemon
 bin/imsqmidaemon
 etc/permissions/imscm.xml
-etc/permissions/qti-vzw-ims-internal.xml
+framework/imscmlibrary.jar
+framework/rcsimssettings.jar
+-vendor/app/ims/ims.apk
+-vendor/app/imssettings/imssettings.apk
 vendor/lib64/lib-dplmedia.so
 vendor/lib64/lib-ims-rcscmjni.so
+vendor/lib64/lib-imsSDP.so
 vendor/lib64/lib-imscamera.so
 vendor/lib64/lib-imsdpl.so
 vendor/lib64/lib-imsqimf.so
@@ -434,7 +419,6 @@ vendor/lib64/lib-imsrcscm.so
 vendor/lib64/lib-imsrcscmclient.so
 vendor/lib64/lib-imsrcscmservice.so
 vendor/lib64/lib-imss.so
-vendor/lib64/lib-imsSDP.so
 vendor/lib64/lib-imsvt.so
 vendor/lib64/lib-imsxml.so
 vendor/lib64/lib-rcsimssjni.so
@@ -448,7 +432,7 @@ vendor/lib64/libimsmedia_jni.so
 vendor/lib64/librcc.so
 vendor/lib64/libvoice-svc.so
 
-# Sensors - from santoni (Redmi 4X)
+# Sensors - from vince (Redmi5 Plus)
 bin/sensors.qcom
 vendor/lib/hw/activity_recognition.msm8937.so
 vendor/lib/libsensor1.so
@@ -461,13 +445,13 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.ssc.so
 
-# Thermal - from santoni (Redmi 4X)
+# Thermal - from vince (Redmi5 Plus)
 vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
-# Time services - from santoni (Redmi 4X)
+# Time services - from vince (Redmi5 Plus)
 -app/TimeService/TimeService.apk
 bin/time_daemon
 -vendor/lib/libtime_genoff.so
@@ -480,5 +464,5 @@ vendor/lib/libWVStreamControlAPI_L3.so|61673304827483d44b735a3dd08f0783d10ce92d
 vendor/lib/libwvdrm_L3.so|7e77482481197997294a834bfbc817a01b6075cd
 vendor/lib/mediadrm/libwvdrmengine.so|70419ce1f8eb6bd3aa36234f8d7e8003569efc9c
 
-# Wi-Fi - from santoni (Redmi 4X)
+# Wi-Fi - from vince (Redmi5 Plus)
 bin/wcnss_service
